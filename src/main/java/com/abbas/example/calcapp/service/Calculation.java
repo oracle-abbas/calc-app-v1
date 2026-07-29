@@ -18,4 +18,8 @@ Logger logger= LoggerFactory.getLogger(Calculation.class);
         logger.debug("Multiplying {} and {}",a,b);
         return a*b;
     }
+    public double div(double a ,double b){
+        logger.debug("Divison {} and {}",a,b);
+        return a/b;
+    }
 }
