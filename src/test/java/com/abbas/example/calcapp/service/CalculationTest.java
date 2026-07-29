@@ -36,7 +36,7 @@ public class CalculationTest {
     @Test
     public void testDiv(){
         Assertions.assertNotNull(calc,"Service object is null");
-        Assertions.assertEquals(5,calc.mul(20,4));
+        Assertions.assertEquals(5,calc.div(20,4));
     }
     @AfterEach
     public void tearDown(){calc=null;
