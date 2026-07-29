@@ -22,4 +22,8 @@ Logger logger= LoggerFactory.getLogger(Calculation.class);
         logger.debug("Divison {} and {}",a,b);
         return a/b;
     }
+    public double pow(double a ,double b){
+        logger.debug("Power {} and {}",a,b);
+        return Math.pow(a,b);
+    }
 }

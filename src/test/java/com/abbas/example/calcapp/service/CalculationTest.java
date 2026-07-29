@@ -38,6 +38,11 @@ public class CalculationTest {
         Assertions.assertNotNull(calc,"Service object is null");
         Assertions.assertEquals(5,calc.div(20,4));
     }
+    @Test
+    public void testPow(){
+        Assertions.assertNotNull(calc,"Service object is null");
+        Assertions.assertEquals(4,calc.pow(2,2));
+    }
     @AfterEach
     public void tearDown(){calc=null;
         logger.info("Setup:- initiated and service Destroyed");
