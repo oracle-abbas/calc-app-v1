@@ -26,4 +26,8 @@ Logger logger= LoggerFactory.getLogger(Calculation.class);
         logger.debug("Power {} and {}",a,b);
         return Math.pow(a,b);
     }
+    public double sqrt(double a ){
+        logger.debug("sqrt {} ",a);
+        return Math.sqrt(a);
+    }
 }
